@@ -1,0 +1,20 @@
+<?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.iptvuhd" name="IPTV UHD" version="1.0.1" provider-name="IPTV UHD">
+  <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <website></website>
+    <description lang="en">SUPPORT UHD INTERNATIONAL</description>
+    <forum></forum>
+    <email></email>
+    <disclaimer lang="es">SOPORTE UHD INTERNACIONAL</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
