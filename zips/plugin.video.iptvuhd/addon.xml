@@ -1,5 +1,5 @@
-<?xml version="1.0.2" encoding="UTF-8"?>
-<addon id="plugin.video.iptvuhd" name="IPTV UHD" version="1.0.2" provider-name="IPTV UHD">
+<?xml version="1.2" encoding="UTF-8"?>
+<addon id="plugin.video.iptvuhd" name="IPTV UHD" version="1.2" provider-name="IPTV UHD">
   <requires>
      <import addon="xbmc.python" version="2.1.0"/>
   </requires>
