@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.iptveb" name="IPTV" version="2.1" provider-name="ElectricBump">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">IPTV</summary>
+    <summary lang="en">IPTV</summary>
+    <website>http://www.i-p.tv/</website>
+    <description lang="es">Add-on de IPTV para Kodi. Basado en el código creado por MikkM bajo licencia GPL.</description>
+    <description lang="en">IPTV add-on for Kodi. Based on the code created by MikkM under GPL License.</description>
+    <forum>http://www.i-p.tv</forum>
+    <email>contact@i-p.tv</email>
+    <disclaimer lang="es">Este add-on es para usarse con el servicio IPTV y requiere una cuenta de este. Para más información comuníquese con su vendedor.</disclaimer>
+    <disclaimer lang="en">This addon is to be used with the IPTV service and requires an account in this service. Contact your seller for more information.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
